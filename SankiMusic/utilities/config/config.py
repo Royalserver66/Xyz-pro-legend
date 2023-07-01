@@ -15,15 +15,15 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 MONGO_DB_URL = getenv("MONGO_DB_URL", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝗚𝗼𝗼𝗴𝗹𝗲 𝗣𝗿𝗼 𝗠𝘂𝘀𝗶𝗰 ")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐒αᥣαα𝗋 𝐌υ𝗌𝗂𝖼 𝐒𝖾𝗋𝗏𝖾𝗋")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6120959935").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Royalserver66/Xyz-pro-legend")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "kaal")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mission_iit_2024")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/mission_iit_2024")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/salaar_ofx")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Friendship_Chatting_Gr0up")
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1800"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "1800"))
@@ -64,20 +64,20 @@ clean = {}
 autoclean = []
 ############################
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/4aaffc32e25a2b01d343d.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/4aaffc32e25a2b01d343d.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/351f4bf21a183603ddc1f.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/351f4bf21a183603ddc1f.jpg")
 
-PLAYLIST_IMG_URL = "https://graph.org/file/4aaffc32e25a2b01d343d.jpg"
-GLOBAL_IMG_URL = "https://graph.org/file/4aaffc32e25a2b01d343d.jpg"
-STATS_IMG_URL = "https://graph.org/file/4aaffc32e25a2b01d343d.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/4aaffc32e25a2b01d343d.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/4aaffc32e25a2b01d343d.jpg"
-STREAM_IMG_URL = "https://graph.org/file/4aaffc32e25a2b01d343d.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/4aaffc32e25a2b01d343d.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/4aaffc32e25a2b01d343d.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/4aaffc32e25a2b01d343d.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/4aaffc32e25a2b01d343d.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/4aaffc32e25a2b01d343d.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/351f4bf21a183603ddc1f.jpg"
+GLOBAL_IMG_URL = "https://graph.org/file/351f4bf21a183603ddc1f.jpg"
+STATS_IMG_URL = "https://graph.org/file/351f4bf21a183603ddc1f.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/351f4bf21a183603ddc1f.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/351f4bf21a183603ddc1f.jpg"
+STREAM_IMG_URL = "https://graph.org/file/351f4bf21a183603ddc1f.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/351f4bf21a183603ddc1f.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/351f4bf21a183603ddc1f.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/351f4bf21a183603ddc1f.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/351f4bf21a183603ddc1f.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/351f4bf21a183603ddc1f.jpg"
 
 
 def time_to_seconds(time):
@@ -103,9 +103,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "SankiMusic/resource/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://graph.org/file/4aaffc32e25a2b01d343d.jpg"
+            PING_IMG_URL = "https://graph.org/file/351f4bf21a183603ddc1f.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "SankiMusic/resource/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://graph.org/file/4aaffc32e25a2b01d343d.jpg"
+            START_IMG_URL = "https://graph.org/file/351f4bf21a183603ddc1f.jpg"
